@@ -19,11 +19,11 @@ function Navigation() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Routes>
-        <Route path="/NFT-Frontend-Project/" exact element={<Home />}></Route>
-        <Route path="/NFT-Frontend-Project/nfts" exact element={<NFTs />}></Route>
-        <Route path="/NFT-Frontend-Project/markets" exact element={<Markets />}></Route>
-        <Route path="/NFT-Frontend-Project/work" exact element={<Work />}></Route>
-        <Route path="/NFT-Frontend-Project/about" exact element={<About />}></Route>
+        <Route path="/" exact element={<Home />}></Route>
+        <Route path="/nfts" exact element={<NFTs />}></Route>
+        <Route path="/markets" exact element={<Markets />}></Route>
+        <Route path="/work" exact element={<Work />}></Route>
+        <Route path="/about" exact element={<About />}></Route>
       </Routes>
     </Router>
   );

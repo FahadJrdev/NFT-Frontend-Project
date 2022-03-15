@@ -1,0 +1,339 @@
+.image-box-available {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.image-box-nft {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.productCard .card-body .buybtn .clickBuyBtn button img {
+    width: 20px;
+    margin-right: 2px;
+}
+
+.card h3 {
+    font-family: "HelveticaNeueLTStdHvCn";
+    font-weight: 100;
+}
+
+.card p {
+    font-family: "HelveticaNeueLTStdRoman";
+    font-weight: 100;
+}
+
+.cardNFT p:nth-child(1) {
+    font-family: "HelveticaNeueLTStdMdCn";
+    font-weight: 100;
+}
+
+.cardNFT p:nth-child(2) {
+    font-family: "HelveticaNeueLTStdLtCn";
+    font-weight: 100;
+}
+
+.cardAvailable .desc p:first-child {
+    font-family: "HelveticaNeueLTStdMdCnO";
+    font-weight: 100;
+}
+
+.cardAvailable .desc p span {
+    font-family: "HelveticaNeueLTStdBdCn";
+    font-weight: 100;
+}
+
+.cardAvailable .desc p:last-child {
+    font-family: "HelveticaNeueLTStdMdCn";
+    font-weight: 100;
+}
+
+.productCard .card-header h1 {
+    font-family: "HelveticaNeueLTStdBdCn";
+    font-weight: 100;
+}
+
+.productCard .card-header p {
+    font-family: "HelveticaNeueLTStdLtIt";
+    font-weight: 100;
+}
+
+.productCard .card-body {
+    display: flex;
+}
+
+.productCard .card-body .card-img {
+    overflow: hidden;
+    width: 50%;
+}
+
+.productCard .card-body .card-img img {
+    overflow: hidden;
+}
+
+.productCard .card-body .card-desc {
+    margin-left: 0rem;
+}
+
+.productCard .card-body .card-desc p {
+    font-family: "HelveticaNeueLTStdMd";
+    font-weight: 100;
+}
+
+.productCard .card-body .card-desc .desc-header {
+    margin-left: 1rem;
+}
+
+.productCard .desc-header h2 {
+    font-family: "HelveticaNeueLTStdBdCn";
+    font-weight: 100;
+}
+
+.productCard .card-body .card-desc .desc {
+    margin-left: 2rem;
+    max-width: 31rem;
+}
+
+.productCard .card-body .card-desc .desc-edition {
+    margin-left: 2rem;
+}
+
+.productCard .card-body .card-desc .desc-sales {
+    margin-left: 2rem;
+}
+
+.productCard .card-body .buybtn {
+    margin-left: 2rem;
+}
+
+.productCard .card-body .buybtn .clickBuyBtn {
+    display: inline-block;
+    border-radius: 18px;
+}
+
+.productCard .direction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productCard .direction .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+.productCard .direction .left:hover {
+    letter-spacing: 0.1rem;
+    color: var(--primary-color);
+}
+
+.productCard .direction .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+.productCard .direction .left {
+    font-size: 2rem;
+}
+
+.productCard .direction .right {
+    font-size: 2rem;
+}
+
+.productCard .direction .right:hover {
+    letter-spacing: 0.1rem;
+    color: var(--primary-color);
+}
+
+.productCard .direction p {
+    display: inline-block;
+    font-family: "HelveticaNeueLTStdCn";
+    font-weight: 100;
+}
+
+.card {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.cardNFT {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.cardAvailable {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.productCard {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+    min-height: 100%;
+}
+
+.card img {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cardNFT img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.cardAvailable img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.productCard img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+    .cardNFT {
+        width: 100%;
+    }
+    .cardAvailable {
+        width: 100%;
+    }
+    .productCard {
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .productCard .card-header h1 {
+        font-family: "HelveticaNeueLTStdBdCn";
+        font-weight: 100;
+        margin: 0 0;
+    }
+    .productCard .card-header p {
+        font-family: "HelveticaNeueLTStdLtIt";
+        font-weight: 100;
+    }
+    .productCard .card-body {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    .productCard .card-body .card-img {
+        overflow: hidden;
+        width: 100%;
+        border: 0.5px solid #777;
+    }
+    .productCard .card-body .card-img img {
+        overflow: hidden;
+    }
+    .productCard .card-body .card-desc {
+        margin-left: 0rem;
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .productCard .card-body .card-desc p {
+        font-family: "HelveticaNeueLTStdMd";
+        font-weight: 100;
+    }
+    .productCard .card-body .card-desc .desc-header {
+        display: none;
+    }
+    .productCard .desc-header h2 {
+        font-family: "HelveticaNeueLTStdBdCn";
+        font-weight: 100;
+    }
+    .productCard .card-body .card-desc .desc {
+        margin-left: 0rem;
+        max-width: 100%;
+        padding: 1rem 0;
+        font-size: 0.7rem;
+    }
+    .productCard .card-body .card-desc .desc-edition {
+        margin-left: 0rem;
+        font-size: 0.7rem;
+        padding-bottom: 1rem;
+    }
+    .productCard .card-body .card-desc .desc-sales {
+        margin-left: 0rem;
+        font-size: 0.7rem;
+        padding-bottom: 1rem;
+    }
+    .productCard .card-body .buybtn {
+        margin-left: 0rem;
+    }
+    .productCard .card-body .buybtn .clickBuyBtn {
+        display: inline-block;
+        border-radius: 10px;
+    }
+    .productCard .card-body .buybtn .clickBuyBtn button {
+        padding: 15px 25px;
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+    .productCard .card-body .buybtn .clickBuyBtn button img {
+        width: 20px;
+    }
+    .productCard .direction {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+    }
+    .productCard .direction .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.2s all ease;
+        font-size: 1rem;
+    }
+    .productCard .direction .left svg {
+        width: 10px;
+        margin-right: 10px;
+    }
+    .productCard .direction .left:hover {
+        letter-spacing: 0.1rem;
+        color: var(--primary-color);
+    }
+    .productCard .direction .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.2s all ease;
+        font-size: 1rem;
+    }
+    .productCard .direction .right svg {
+        width: 10px;
+        margin-left: 10px;
+    }
+    .productCard .direction .right:hover {
+        letter-spacing: 0.1rem;
+        color: var(--primary-color);
+    }
+    .productCard .direction p {
+        display: inline-block;
+        font-family: "HelveticaNeueLTStdCn";
+        font-weight: 100;
+    }
+}

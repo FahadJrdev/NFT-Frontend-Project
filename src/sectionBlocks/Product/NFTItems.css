@@ -1,0 +1,79 @@
+.NFTItems {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    min-width: 100%;
+}
+
+.NFTItems .ETHpayment {
+    z-index: 1;
+    position: absolute;
+    top: 11%;
+    right: 4%;
+    width: 400px;
+    height: 400px;
+}
+
+.NFTItems .ETHpayment.open {
+    display: block;
+}
+
+.NFTItems .ETHpayment.closed {
+    display: none;
+}
+
+.NFTItem {
+    min-width: 100%;
+    transition: 0.2s all ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.NFTItem .direction .left {
+    position: absolute;
+    left: 5%;
+}
+
+.NFTItem .direction .right {
+    position: absolute;
+    right: 5%;
+}
+
+@media screen and (max-width: 500px) {
+    .NFTItems {
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        min-width: 100%;
+        padding-top: 4rem;
+        justify-content: space-between;
+    }
+    .NFTItems .ETHpayment {
+        z-index: 1;
+        position: absolute;
+        top: 11%;
+        right: 4%;
+        width: 200px;
+        height: 400px;
+    }
+    .NFTItems .ETHpayment.open {
+        display: block;
+    }
+    .NFTItems .ETHpayment.closed {
+        display: none;
+    }
+    .NFTItem {
+        min-width: 100%;
+        transition: 0.2s all ease;
+        position: relative;
+        overflow: hidden;
+    }
+    .NFTItem .direction .left {
+        position: absolute;
+        left: 5%;
+    }
+    .NFTItem .direction .right {
+        position: absolute;
+        right: 5%;
+    }
+}

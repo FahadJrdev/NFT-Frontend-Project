@@ -1,0 +1,9 @@
+.menu-logo {
+    width: 220px;
+}
+
+@media screen and (max-width: 480px) {
+    .menu-logo {
+        width: 180px;
+    }
+}

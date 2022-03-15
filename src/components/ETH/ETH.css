@@ -1,0 +1,103 @@
+.ETH {
+    width: 100%;
+    height: 100%;
+    border-radius: 60px 60px 0 0;
+    border: 1px solid #ddd;
+}
+
+.ETH .header {
+    background: #efefef;
+    border-radius: 60px 60px 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ETH .header .opt button {
+    border-radius: 25px;
+    border: 2px solid #cdcdcd;
+    padding: 5px 15px;
+    color: #555555;
+}
+
+.ETH .header .opt button span:nth-child(1) {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #7d7d7d;
+}
+
+.ETH .accountInfo {
+    border-bottom: 1px solid #eee;
+}
+
+.ETH .accountInfo .acc h6 {
+    color: #ddd;
+}
+
+.ETH .eth h4 {
+    color: #505050;
+    font-family: "HelveticaNeueLTStdLtCn";
+}
+
+.ETH .eth .pay button {
+    border-radius: 5px;
+    border: 2px solid #c2dff4;
+    color: #2185d5;
+}
+
+@media screen and (max-width: 500px) {
+    .ETH {
+        width: 100%;
+        height: auto;
+        border-radius: 60px 60px 0 0;
+        border: 1px solid #ddd;
+        padding-bottom: 1rem;
+    }
+    .ETH .header {
+        background: #efefef;
+        border-radius: 60px 60px 0 0;
+        padding: 1rem 1.5rem;
+    }
+    .ETH .header img {
+        width: 20px;
+        height: auto;
+    }
+    .ETH .header .opt button {
+        border-radius: 25px;
+        border: 2px solid #cdcdcd;
+        padding: 2px 4px;
+        color: #555555;
+        font-size: 0.7rem;
+    }
+    .ETH .header .opt button span:nth-child(1) {
+        font-size: 0.7rem;
+        height: 15px;
+        width: 15px;
+    }
+    .ETH .header .opt button {
+        margin-right: 0.2rem;
+    }
+    .ETH .accountInfo {
+        border-bottom: 1px solid #eee;
+        font-size: 0.9rem;
+    }
+    .ETH .accountInfo .acc h6 {
+        color: #ddd;
+    }
+    .ETH .eth {
+        padding: 1rem;
+    }
+    .ETH .eth h4 {
+        color: #505050;
+        font-family: "HelveticaNeueLTStdLtCn";
+        font-size: 1.3rem;
+    }
+    .ETH .eth .pay button {
+        border-radius: 5px;
+        border: 2px solid #c2dff4;
+        color: #2185d5;
+        padding: 0.5rem 1rem;
+        font-size: 0.7rem;
+    }
+}

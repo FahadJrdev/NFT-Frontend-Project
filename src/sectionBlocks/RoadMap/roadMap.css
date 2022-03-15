@@ -1,0 +1,228 @@
+.roadMap .roadMap-header h1 {
+    font-family: "HelveticaNeueLTStdHvCn";
+    font-weight: 100;
+}
+
+.roadMap .roadMap-body .Map h5 {
+    font-family: "HelveticaNeueLTStdHvCn";
+    font-weight: 100;
+    margin: 0;
+}
+
+.roadMap .roadMap-body .Map p {
+    font-family: "HelveticaNeueLTStdCn";
+    font-weight: 100;
+}
+
+.roadMap .roadMap-body .Map {
+    width: 250px;
+    height: 125px;
+    position: relative;
+    border: 1px dashed #fff;
+}
+
+.roadMap .roadMap-body .Map .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: -6px;
+    left: 49%;
+    outline: 5px solid #ff000050;
+}
+
+.roadMap .roadMap-body .Map:nth-child(odd)::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 95%;
+    right: -6px;
+}
+
+.roadMap .roadMap-body .Map:nth-child(odd)::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: -3px;
+    left: -5px;
+}
+
+.roadMap .roadMap-body .roadMap1 {
+    border-radius: 125px 125px 0 0;
+    border-bottom: none;
+}
+
+.roadMap .roadMap-body .roadMap2 {
+    border-radius: 0 0 125px 125px;
+    top: 125px;
+    border-top: none;
+}
+
+.roadMap .roadMap-body .roadMap3 {
+    border-radius: 125px 125px 0 0;
+    border-bottom: none;
+}
+
+.roadMap .roadMap-body .roadMap4 {
+    border-radius: 0 0 125px 125px;
+    top: 125px;
+    border-top: none;
+}
+
+.roadMap .roadMap-body .roadMap5 {
+    border-radius: 125px 125px 0 0;
+    border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+    .roadMap {
+        padding: 0 0 4rem 0;
+    }
+    .roadMap .roadMap-header {
+        padding-bottom: 0rem;
+    }
+    .roadMap .roadMap-header h1 {
+        font-family: "HelveticaNeueLTStdHvCn";
+        font-weight: 100;
+        padding-bottom: 0;
+    }
+    .roadMap .roadMap-body .Map h5 {
+        font-family: "HelveticaNeueLTStdHvCn";
+        font-weight: 100;
+        margin: 0;
+        font-size: 0.8rem;
+    }
+    .roadMap .roadMap-body .Map p {
+        font-family: "HelveticaNeueLTStdCn";
+        font-weight: 100;
+        font-size: 0.8rem;
+    }
+    .roadMap .roadMap-body .Map {
+        width: 125px;
+        height: 250px;
+        position: relative;
+        border: 1px dashed #fff;
+    }
+    .roadMap .roadMap-body .Map .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute;
+        top: 46%;
+        left: 97%;
+        outline: 5px solid #ff000050;
+    }
+    .roadMap .roadMap-body .Map:nth-child(odd)::after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute;
+        top: -6px;
+        right: 95.5%;
+    }
+    .roadMap .roadMap-body .Map:nth-child(odd)::before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: absolute;
+        bottom: -6px;
+        left: -5px;
+    }
+    .roadMap .roadMap-body .roadMap1 {
+        border-radius: 0 125px 125px 0;
+        border-left: none;
+        left: 62.5px;
+    }
+    .roadMap .roadMap-body .roadMap2 {
+        border-radius: 125px 0 0 125px;
+        top: 125px;
+        border-right: none;
+        right: 62.5px;
+        top: 0;
+    }
+    .roadMap .roadMap-body .roadMap3 {
+        border-radius: 0 125px 125px 0;
+        border-left: none;
+        left: 62.5px;
+    }
+    .roadMap .roadMap-body .roadMap4 {
+        border-radius: 125px 0 0 125px;
+        top: 125px;
+        border-right: none;
+        right: 62.5px;
+        top: 0;
+    }
+    .roadMap .roadMap-body .roadMap5 {
+        border-radius: 0 125px 125px 0;
+        border-left: none;
+        left: 62.5px;
+    }
+    .roadMap .roadMap-body .roadMap1 h5,
+    .roadMap .roadMap-body .roadMap1 p {
+        position: absolute;
+        width: 150px;
+        right: 50%;
+        top: 35%;
+    }
+    .roadMap .roadMap-body .roadMap1 h5 {
+        top: 25%;
+    }
+    .roadMap .roadMap-body .roadMap2 h5,
+    .roadMap .roadMap-body .roadMap2 p {
+        position: absolute;
+        width: 150px;
+        left: 50%;
+        top: 35%;
+    }
+    .roadMap .roadMap-body .roadMap2 h5 {
+        top: 25%;
+    }
+    .roadMap .roadMap-body .roadMap3 h5,
+    .roadMap .roadMap-body .roadMap3 p {
+        position: absolute;
+        width: 150px;
+        right: 50%;
+        top: 25%;
+    }
+    .roadMap .roadMap-body .roadMap3 h5 {
+        top: 15%;
+    }
+    .roadMap .roadMap-body .roadMap4 h5,
+    .roadMap .roadMap-body .roadMap4 p {
+        position: absolute;
+        width: 200px;
+        left: 50%;
+        top: 30%;
+    }
+    .roadMap .roadMap-body .roadMap4 h5 {
+        top: 20%;
+    }
+    .roadMap .roadMap-body .roadMap5 h5,
+    .roadMap .roadMap-body .roadMap5 p {
+        position: absolute;
+        width: 210px;
+        right: 25%;
+        top: 25%;
+    }
+    .roadMap .roadMap-body .roadMap5 h5 {
+        top: 3%;
+    }
+    .roadMap .roadMap-body {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem 0 1rem;
+    }
+}

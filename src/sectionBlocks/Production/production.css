@@ -1,0 +1,63 @@
+.production .rec-dot {
+    display: none;
+}
+
+.production .rec-arrow {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    background-color: #fff;
+    color: #000;
+    padding: 16px;
+    position: absolute;
+    z-index: 1;
+}
+
+.production .rec-arrow:hover,
+.production .rec-arrow:active,
+.production .rec-arrow:visited,
+.production .rec-arrow:focus:enabled {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.production .rec-carousel-wrapper {
+    position: relative;
+}
+
+.production .rec-arrow-right {
+    right: 45px;
+}
+
+.production .rec-arrow-left {
+    left: 45px;
+}
+
+@media screen and (max-width: 450px) {
+    .production .rec-arrow-right {
+        top: 100%;
+        right: 37%;
+    }
+    .production .rec-arrow-left {
+        top: 100%;
+        left: 37%;
+    }
+    .production h2 {
+        text-align: center;
+    }
+    .production .rec button {
+        font-size: 0.8rem;
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+        line-height: 30px;
+        justify-items: center;
+    }
+    .production .rec-arrow {
+        padding: 11px;
+    }
+}
+
+.production {
+    font-family: "HelveticaNeueLTStdHvCn";
+    font-weight: 100;
+}

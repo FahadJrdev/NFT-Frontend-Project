@@ -1,0 +1,66 @@
+.NFTMarketPlace .direction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.NFTMarketPlace .direction .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+.NFTMarketPlace .direction .left:hover {
+    letter-spacing: 0.1rem;
+    color: var(--primary-color);
+}
+
+.NFTMarketPlace .direction .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+.NFTMarketPlace .direction .right:hover {
+    letter-spacing: 0.1rem;
+    color: var(--primary-color);
+}
+
+.NFTMarketPlace .direction p {
+    display: inline-block;
+    font-family: "HelveticaNeueLTStdMdCn";
+    font-weight: 100;
+}
+
+.slider-items {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-item {
+    min-width: 100%;
+    transition: 0.2s all ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.NFTMarketPlace .direction .left p {
+    font-size: 2rem;
+}
+
+.NFTMarketPlace .direction .right p {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .NFTMarketPlace .direction .left p {
+        font-size: 1rem;
+    }
+    .NFTMarketPlace .direction .right p {
+        font-size: 1rem;
+    }
+}

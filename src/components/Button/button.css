@@ -1,0 +1,31 @@
+.btn-component {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 18px;
+    padding: 25px 40px;
+    min-height: 30px;
+    min-width: 120px;
+    z-index: 2;
+    font-weight: 100;
+    font-family: "HelveticaNeueLTStdHvCn";
+    transition: 0.2 all ease;
+}
+
+.btn-component:hover {
+    background-color: #000;
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 400px) {
+    .btn-component img {
+        width: 25px;
+        margin-right: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .newsbtn {
+        font-size: 0.8rem;
+    }
+}

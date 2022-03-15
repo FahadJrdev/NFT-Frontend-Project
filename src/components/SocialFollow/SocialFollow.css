@@ -1,0 +1,31 @@
+.social-container {
+    background: transparent;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-icon {
+    margin: 0 0.5rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+.social-container a:hover {
+    transform: translateY(-2px);
+}
+
+.social-container .social-icon img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .social-container {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .social-container {
+        padding-bottom: 25px;
+    }
+}

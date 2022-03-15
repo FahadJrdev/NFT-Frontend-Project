@@ -1,0 +1,61 @@
+.award h2 {
+    font-family: "HelveticaNeueLTStdHvCn";
+    font-weight: 100;
+}
+
+.award {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.award .rec-dot {
+    display: none;
+}
+
+.award .rec-arrow {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    background-color: #fff;
+    color: #000;
+    padding: 16px;
+}
+
+.award .rec-arrow:hover,
+.award .rec-arrow:focus {
+    background-color: #000!important;
+    color: #fff;
+}
+
+.award .rec-carousel-wrapper {
+    position: relative;
+}
+
+.award .rec-arrow {
+    position: absolute;
+    z-index: 1;
+}
+
+.award .rec-arrow-right {
+    right: 15px;
+}
+
+.award .rec-arrow-left {
+    left: 15px;
+}
+
+@media screen and (max-width: 450px) {
+    .award h2 {
+        font-size: 1.3rem;
+    }
+    .award .rec button {
+        font-size: 0.8rem;
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+        line-height: 30px;
+        justify-items: center;
+    }
+    .award .rec-arrow {
+        padding: 11px;
+    }
+}

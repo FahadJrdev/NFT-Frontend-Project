@@ -10,25 +10,25 @@ const Navbar = ({toggle}) => {
       <div>
           <Nav>
             <NavbarContainer>
-                <NavLogo to='/'><img src="Images/Main-Logo.png" alt="Logo" className='logo'/></NavLogo>
+                <NavLogo to='/NFT-Frontend-Project/'><img src="Images/Main-Logo.png" alt="Logo" className='logo'/></NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to="/">Home</NavLinks>
+                        <NavLinks to="/NFT-Frontend-Project/">Home</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/nfts">NFTs</NavLinks>
+                        <NavLinks to="/NFT-Frontend-Project/nfts">NFTs</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/markets">Markets</NavLinks>
+                        <NavLinks to="/NFT-Frontend-Project/markets">Markets</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/work">Work</NavLinks>
+                        <NavLinks to="/NFT-Frontend-Project/work">Work</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/about">About</NavLinks>
+                        <NavLinks to="/NFT-Frontend-Project/about">About</NavLinks>
                     </NavItem>
                     <SocialFollowWhite />
                 </NavMenu>

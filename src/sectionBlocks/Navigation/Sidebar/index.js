@@ -10,14 +10,14 @@ const Sidebar = ({ isOpen, toggle}) => {
         <Icon onClick={toggle}>
             <img src='icons/close.svg' alt='close' width={30} height={'auto'}></img>
         </Icon>
-        <NavLogo to='/'><img src="Images/Menu-logo.png" alt="logo" className='menu-logo'/></NavLogo>
+        <NavLogo to='/NFT-Frontend-Project/'><img src="Images/Menu-logo.png" alt="logo" className='menu-logo'/></NavLogo>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to="/" onClick={toggle}>Home</SidebarLink>
-                <SidebarLink to="/nfts" onClick={toggle}>NFTs</SidebarLink>
-                <SidebarLink to="/markets" onClick={toggle}>Markets</SidebarLink>
-                <SidebarLink to="/work" onClick={toggle}>Work</SidebarLink>
-                <SidebarLink to="/about" onClick={toggle}>About</SidebarLink>
+                <SidebarLink to="/NFT-Frontend-Project/" onClick={toggle}>Home</SidebarLink>
+                <SidebarLink to="/NFT-Frontend-Project/nfts" onClick={toggle}>NFTs</SidebarLink>
+                <SidebarLink to="/NFT-Frontend-Project/markets" onClick={toggle}>Markets</SidebarLink>
+                <SidebarLink to="/NFT-Frontend-Project/work" onClick={toggle}>Work</SidebarLink>
+                <SidebarLink to="/NFT-Frontend-Project/about" onClick={toggle}>About</SidebarLink>
             </SidebarMenu>
             <SocialFollowBlack className="pl5"/>
         </SidebarWrapper>

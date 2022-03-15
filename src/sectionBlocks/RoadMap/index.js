@@ -5,7 +5,7 @@ const RoadMap = () => {
   return (
     <div className='roadMap pt4 pb7 ph4 bg-black white'>
         <div className="roadMap-header pb5 perfect-center tc"><h1>ROADMAP</h1></div>
-        <div className="roadMap-body pt3 pb2 w-100 flex tl">
+        <div className="roadMap-body pt3 pb2 w-100 perfect-center tl">
             <div className="Map roadMap1 ph4 pt5 flex flex-column f6">
                 <div className='dot'></div>
                 <h5>Stage 1 - 25%</h5>

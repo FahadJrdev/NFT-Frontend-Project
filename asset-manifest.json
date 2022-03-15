@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/NFT-Frontend-Project/static/css/main.52e8b6de.css",
+    "main.js": "/NFT-Frontend-Project/static/js/main.4d6b5776.js",
+    "static/js/787.77b43f03.chunk.js": "/NFT-Frontend-Project/static/js/787.77b43f03.chunk.js",
+    "static/media/HelveticaNeueLTStdMdCnO.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdMdCnO.81db7da345c91d683bd6.otf",
+    "static/media/HelveticaNeueLTStdHvCn.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdHvCn.6bb2b3492d0ebfdd5e05.otf",
+    "static/media/HelveticaNeueLTStdMdCn.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdMdCn.2f27fdae8f17e8045d6a.otf",
+    "static/media/HelveticaNeueLTStdBdCn.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdBdCn.ba50a40818e90f205087.otf",
+    "static/media/HelveticaNeueLTStdCn.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdCn.753036847e6f777af67d.otf",
+    "static/media/HelveticaNeueLTStdLtIt.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdLtIt.16cf5f49fca48bf885b9.otf",
+    "static/media/HelveticaNeueLTStdMd.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdMd.938ba0f9f7dad38c4afb.otf",
+    "static/media/HelveticaNeueLTStdBd.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdBd.14a13a5415b0d3b6ca0b.otf",
+    "static/media/HelveticaNeueLTStdLt.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdLt.4e9f9e83e4d674fbcdbe.otf",
+    "static/media/HelveticaNeueLTStdLtCn.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdLtCn.88ce1fd144e27ccc7bd9.otf",
+    "static/media/HelveticaNeueLTStdRoman.otf": "/NFT-Frontend-Project/static/media/HelveticaNeueLTStdRoman.41833cf0d2ff7ab2a686.otf",
+    "index.html": "/NFT-Frontend-Project/index.html",
+    "main.52e8b6de.css.map": "/NFT-Frontend-Project/static/css/main.52e8b6de.css.map",
+    "main.4d6b5776.js.map": "/NFT-Frontend-Project/static/js/main.4d6b5776.js.map",
+    "787.77b43f03.chunk.js.map": "/NFT-Frontend-Project/static/js/787.77b43f03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52e8b6de.css",
+    "static/js/main.4d6b5776.js"
+  ]
+}

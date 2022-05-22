@@ -1,3 +1,4 @@
+MVP = https://gallant-hermann-3f2591.netlify.app/markets
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
